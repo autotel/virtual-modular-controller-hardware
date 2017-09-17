@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/joaquin/repositories/virtualModular-V2/virtualModular2.sch)
-    (date "11-09-2017 17:12:17")
+    (date "15-09-2017 12:56:38")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -163,7 +163,7 @@
       (tstamp 595A467A))
     (comp (ref P19)
       (value PIGPIO)
-      (footprint lib_fp:Pin_Header_Straight_2x05_Pitch2.54mm_SMD-raspi)
+      (footprint SparkFun-Connectors:2X5_NOSILK)
       (fields
         (field (name Sku) --)
         (field (name MPN) --)
