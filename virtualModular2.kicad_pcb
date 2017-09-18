@@ -24,7 +24,7 @@
     (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
-    (40 Dwgs.User user)
+    (40 Dwgs.User user hide)
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
@@ -10337,13 +10337,13 @@
   )
 
   (module SparkFun-Electromechanical:ENCODER_LED_2 (layer F.Cu) (tedit 594B6C70) (tstamp 594A56D8)
-    (at 86.995 22.86 180)
+    (at 87 18 180)
     (descr "<h3>2-color Illuminated Rotary Encoder</h3>")
     (path /594FBCFF)
     (fp_text reference SW2 (at 0 5 180) (layer F.SilkS)
       (effects (font (thickness 0.15)))
     )
-    (fp_text value ROTARY_ENCODER_SWITCH (at 0 0 180) (layer F.SilkS) hide
+    (fp_text value ROTARY_ENCODER_SWITCH (at 0 3 180) (layer F.SilkS) hide
       (effects (font (thickness 0.15)))
     )
     (fp_line (start -3.9 -6.7) (end 3.9 -6.7) (layer Dwgs.User) (width 0.2032))
@@ -10647,7 +10647,7 @@
   )
 
   (module SeeedOPL-IC:TO-252 (layer B.Cu) (tedit 200000) (tstamp 594A56DF)
-    (at 88.265 6.985 90)
+    (at 90 4.5 90)
     (descr "SMALL OUTLINE TRANSISTOR")
     (tags "SMALL OUTLINE TRANSISTOR")
     (path /594A5C49)
@@ -12401,7 +12401,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD (layer B.Cu) (tedit 58CD4EC5) (tstamp 594C2115)
-    (at 52.07 25.4)
+    (at 52.5 26)
     (descr "surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Surface mounted pin header SMD 2x03 2.54mm double row")
     (path /5948B30E)
@@ -12553,7 +12553,7 @@
   )
 
   (module lib_fp:DO-214AC (layer F.Cu) (tedit 594C7A8D) (tstamp 594C916E)
-    (at 7.5 40 270)
+    (at 3.5 40 270)
     (descr HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (tags HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (path /5967E4E0)
@@ -12586,7 +12586,7 @@
   )
 
   (module lib_fp:DO-214AC (layer F.Cu) (tedit 594C7A8D) (tstamp 594C9173)
-    (at 32.155 40.19 90)
+    (at 27.5 40.19 90)
     (descr HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (tags HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (path /5968D765)
@@ -12619,7 +12619,7 @@
   )
 
   (module lib_fp:DO-214AC (layer F.Cu) (tedit 594C7A8D) (tstamp 594C9178)
-    (at 57.955 40.19 90)
+    (at 53 40.19 90)
     (descr HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (tags HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (path /5968DFF2)
@@ -12652,7 +12652,7 @@
   )
 
   (module lib_fp:DO-214AC (layer F.Cu) (tedit 594C7A8D) (tstamp 594C917D)
-    (at 81.8 39.9604 90)
+    (at 78 40 90)
     (descr HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (tags HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (path /5968E776)
@@ -12718,7 +12718,7 @@
   )
 
   (module lib_fp:DO-214AC (layer F.Cu) (tedit 594C7A8D) (tstamp 594C9187)
-    (at 5.595 46.48 90)
+    (at 6.5 46.48 90)
     (descr HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (tags HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (path /5968FA68)
@@ -12751,7 +12751,7 @@
   )
 
   (module lib_fp:DO-214AC (layer F.Cu) (tedit 594C7A8D) (tstamp 594C918C)
-    (at 30.25 46.42 90)
+    (at 31.5 46.42 90)
     (descr HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (tags HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (path /5968FA72)
@@ -12784,7 +12784,7 @@
   )
 
   (module lib_fp:DO-214AC (layer F.Cu) (tedit 594C7A8D) (tstamp 594C9191)
-    (at 56.05 46.42 90)
+    (at 56.5 46.42 90)
     (descr HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (tags HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (path /5968FA7C)
@@ -12817,7 +12817,7 @@
   )
 
   (module lib_fp:DO-214AC (layer F.Cu) (tedit 594C7A8D) (tstamp 594C9196)
-    (at 79.895 46.42 90)
+    (at 81.5 46.42 90)
     (descr HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (tags HTTP://WWW.SYCELECTRONICA.COM.AR/SEMICONDUCTORES/1N4007-SMD.PDF)
     (path /5968FA86)
@@ -14586,7 +14586,7 @@
     (fp_line (start -3.45 -2.8) (end 3.45 -2.8) (layer B.CrtYd) (width 0.05))
     (fp_line (start -2 -2.675) (end 2 -2.675) (layer B.SilkS) (width 0.15))
     (fp_line (start -3.275 2.725) (end 2 2.725) (layer B.SilkS) (width 0.15))
-    (fp_text user %R (at 0 -0.1) (layer B.Fab)
+    (fp_text user %R (at 0 -4.6) (layer B.Fab)
       (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd rect (at -2.6 2.2225) (size 1.2 0.4) (layers B.Cu B.Paste B.Mask)
@@ -14634,7 +14634,7 @@
     (fp_text reference MUXB1 (at 0 -3.4 180) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value 4051 (at 0 3.6 180) (layer B.Fab)
+    (fp_text value 4051 (at 0 3.5 180) (layer B.Fab)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_line (start -0.95 2.45) (end 1.95 2.45) (layer B.Fab) (width 0.15))
@@ -14648,7 +14648,7 @@
     (fp_line (start -3.45 -2.8) (end 3.45 -2.8) (layer B.CrtYd) (width 0.05))
     (fp_line (start -2 -2.675) (end 2 -2.675) (layer B.SilkS) (width 0.15))
     (fp_line (start -3.275 2.725) (end 2 2.725) (layer B.SilkS) (width 0.15))
-    (fp_text user %R (at -0.21 0.1 180) (layer B.Fab)
+    (fp_text user %R (at 0 4.6 180) (layer B.Fab)
       (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
     )
     (pad 1 smd rect (at -2.6 2.2225 180) (size 1.2 0.4) (layers B.Cu B.Paste B.Mask)
@@ -15737,9 +15737,11 @@
     )
     (filled_polygon
       (pts
-        (xy 99.29 15.113) (xy 91.030215 15.113) (xy 91.030265 15.056009) (xy 90.797068 14.491629) (xy 90.365643 14.059449)
-        (xy 89.80167 13.825267) (xy 89.191009 13.824735) (xy 88.626629 14.057932) (xy 88.244712 14.439182) (xy 87.865643 14.059449)
-        (xy 87.757 14.014336) (xy 87.757 0.71) (xy 99.29 0.71)
+        (xy 99.29 15.113) (xy 87.757 15.113) (xy 87.757 11.848086) (xy 87.868371 11.802068) (xy 88.250288 11.420818)
+        (xy 88.629357 11.800551) (xy 89.19333 12.034733) (xy 89.803991 12.035265) (xy 90.368371 11.802068) (xy 90.800551 11.370643)
+        (xy 91.034733 10.80667) (xy 91.035265 10.196009) (xy 90.802068 9.631629) (xy 90.370643 9.199449) (xy 89.80667 8.965267)
+        (xy 89.196009 8.964735) (xy 88.631629 9.197932) (xy 88.249712 9.579182) (xy 87.870643 9.199449) (xy 87.757 9.15226)
+        (xy 87.757 0.71) (xy 99.29 0.71)
       )
     )
   )

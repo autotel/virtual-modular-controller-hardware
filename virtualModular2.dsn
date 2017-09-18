@@ -323,7 +323,7 @@
   )
   (placement
     (component "SparkFun-Connectors:2X5_NOSILK"
-      (place P19 4675 -72390 back 180 (PN PIGPIO))
+      (place P19 3500 -73000 back 180 (PN PIGPIO))
     )
     (component "SparkFun-Displays:LCD-16X2"
       (place DS1 40000 -18000 front 0 (PN LCD16X2))
@@ -364,7 +364,7 @@
       (place WSB10 25000 -100000 front 0 (PN WS2812_BUTTON))
     )
     (component "SparkFun-Electromechanical:ENCODER_LED_2"
-      (place SW2 86995 -22860 front 180 (PN ROTARY_ENCODER_SWITCH))
+      (place SW2 87000 -18000 front 180 (PN ROTARY_ENCODER_SWITCH))
     )
     (component "SeeedOPL-Capacitor:C0402"
       (place C1 59037.7 -14500 back 270 (PN 100n))
@@ -387,7 +387,7 @@
       (place R23 43815 -8255 back 180 (PN 220))
     )
     (component "SeeedOPL-IC:TO-252"
-      (place U1 88265 -6985 back 270 (PN NCP1117ST50T3G))
+      (place U1 90000 -4500 back 270 (PN NCP1117ST50T3G))
     )
     (component "SparkFun-Connectors:POWER_JACK_PTH_LOCK"
       (place CON1 52025.4 1270 back 180 (PN BARREL_JACK))
@@ -430,19 +430,19 @@
       (place P18 78000 -18500 back 270 (PN 3VI2C))
     )
     (component Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD
-      (place P3 52070 -25400 back 180 (PN "5V SPI"))
+      (place P3 52500 -26000 back 180 (PN "5V SPI"))
     )
     (component "lib_fp:DO-214AC"
       (place D1 54610 -17780 back 180 (PN D))
-      (place D4 7500 -40000 front 270 (PN D))
-      (place D5 32155 -40190 front 90 (PN D))
-      (place D6 57955 -40190 front 90 (PN D))
-      (place D7 81800 -39960.4 front 90 (PN D))
+      (place D4 3500 -40000 front 270 (PN D))
+      (place D5 27500 -40190 front 90 (PN D))
+      (place D6 53000 -40190 front 90 (PN D))
+      (place D7 78000 -40000 front 90 (PN D))
       (place D8 83566 -35052 front 0 (PN D))
-      (place D9 5595 -46480 front 90 (PN D))
-      (place D10 30250 -46420 front 90 (PN D))
-      (place D11 56050 -46420 front 90 (PN D))
-      (place D12 79895 -46420 front 90 (PN D))
+      (place D9 6500 -46480 front 90 (PN D))
+      (place D10 31500 -46420 front 90 (PN D))
+      (place D11 56500 -46420 front 90 (PN D))
+      (place D12 81500 -46420 front 90 (PN D))
       (place D13 21000 -71500 back 180 (PN D))
       (place D14 29000 -71500 back 180 (PN D))
       (place D15 70977 -71500 back 180 (PN D))
@@ -495,7 +495,7 @@
       (place SW_right1 96500 -32500 back 270 (PN SW_PUSH))
     )
     (component lib_fp:trimpot
-      (place RV1 8498.92 -12400 back 270 (PN 10k))
+      (place RV1 8498.9 -12400 back 270 (PN 10k))
     )
     (component "SparkFun-Connectors:1X06"
       (place P2 74295 -25500 back 0 (PN FTDI))
